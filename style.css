@@ -1,0 +1,94 @@
+/* アプリのページ共通スタイル。アプリ本体と同じ配色にしている。 */
+:root {
+  --bg: #fdf7ef;
+  --card: #ffffff;
+  --ink: #3b3129;
+  --ink-soft: #8c7f72;
+  --accent: #f5883a;
+  --accent-soft: #ffe7d2;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1815;
+    --card: #262120;
+    --ink: #f3ece4;
+    --ink-soft: #b3a79a;
+    --accent-soft: #3a2a1c;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 32px 16px 64px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  line-height: 1.9;
+  font-size: 16px;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  background: var(--card);
+  border-radius: 18px;
+  padding: 28px 24px 36px;
+}
+
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+p, li { margin: 8px 0; }
+ul { padding-left: 1.2em; }
+a { color: var(--accent); }
+
+.meta {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  margin: 0 0 24px;
+}
+
+.summary {
+  background: var(--accent-soft);
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 20px 0 8px;
+}
+
+/* アプリ一覧のカード */
+.app-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+}
+.app-list li { margin: 0 0 12px; }
+.app-list a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  border-radius: 14px;
+  background: var(--bg);
+  color: var(--ink);
+  text-decoration: none;
+}
+.app-list .icon { font-size: 2rem; line-height: 1; }
+.app-list .name { font-weight: 700; }
+.app-list .desc { color: var(--ink-soft); font-size: 0.9rem; }
+
+hr {
+  border: none;
+  border-top: 1px solid var(--ink-soft);
+  opacity: 0.3;
+  margin: 40px 0 8px;
+}
+
+footer {
+  max-width: 720px;
+  margin: 20px auto 0;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  text-align: center;
+}
+footer a { color: var(--ink-soft); }
