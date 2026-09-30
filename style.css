@@ -43,6 +43,14 @@ p, li { margin: 8px 0; }
 ul { padding-left: 1.2em; }
 a { color: var(--accent); }
 
+/* アプリのページの見出し（アイコンつき） */
+.app-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.app-title img { width: 64px; height: 64px; border-radius: 15px; flex: none; }
+
 .meta {
   color: var(--ink-soft);
   font-size: 0.9rem;
@@ -73,7 +81,7 @@ a { color: var(--accent); }
   color: var(--ink);
   text-decoration: none;
 }
-.app-list .icon { font-size: 2rem; line-height: 1; }
+.app-list .icon { width: 56px; height: 56px; border-radius: 13px; flex: none; }
 .app-list .name { font-weight: 700; }
 .app-list .desc { color: var(--ink-soft); font-size: 0.9rem; }
 

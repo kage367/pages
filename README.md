@@ -9,14 +9,15 @@ index.html            アプリ一覧
 style.css             共通スタイル
 .nojekyll             Jekyll の変換を使わず、ファイルをそのまま公開する
 flashcard/
-  index.html          フラッシュカードの紹介ページ（App Store の「サポートURL」）
-  privacy.html        フラッシュカードのプライバシーポリシー（App Store の「プライバシーポリシーURL」）
+  index.html          ぴよカードの紹介ページ（App Store の「サポートURL」）
+  privacy.html        ぴよカードのプライバシーポリシー（App Store の「プライバシーポリシーURL」）
+  icon.png            アプリアイコン（flash_card リポジトリの Tools/draw_app_icon.swift で作ったもの）
 ```
 
 | ページ | URL |
 |---|---|
 | アプリ一覧 | https://kage367.github.io/pages/ |
-| フラッシュカード | https://kage367.github.io/pages/flashcard/ |
+| ぴよカード | https://kage367.github.io/pages/flashcard/ |
 | プライバシーポリシー | https://kage367.github.io/pages/flashcard/privacy.html |
 
 ## 公開のしかた
