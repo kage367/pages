@@ -12,6 +12,10 @@ flashcard/
   index.html          ぴよカードの紹介ページ（App Store の「サポートURL」）
   privacy.html        ぴよカードのプライバシーポリシー（App Store の「プライバシーポリシーURL」）
   icon.png            アプリアイコン（flash_card リポジトリの Tools/draw_app_icon.swift で作ったもの）
+reshiripi/
+  index.html          レシリピの紹介ページ（App Store の「サポートURL」。アプリ内の問い合わせ先・User-Agent の連絡先にも使う）
+  privacy.html        レシリピのプライバシーポリシー（App Store の「プライバシーポリシーURL」）
+  icon.png            アプリアイコン（my_recipe リポジトリの AppIcon.png を 256px に縮小）
 ```
 
 | ページ | URL |
@@ -19,6 +23,8 @@ flashcard/
 | アプリ一覧 | https://kage367.github.io/pages/ |
 | ぴよカード | https://kage367.github.io/pages/flashcard/ |
 | プライバシーポリシー | https://kage367.github.io/pages/flashcard/privacy.html |
+| レシリピ | https://kage367.github.io/pages/reshiripi/ |
+| レシリピのプライバシーポリシー | https://kage367.github.io/pages/reshiripi/privacy.html |
 
 ## 公開のしかた
 
@@ -38,3 +44,5 @@ flashcard/
 - App Store に出しているあいだ、プライバシーポリシーの URL は生きている必要がある。
   このリポジトリを非公開にしたり、名前を変えたり、ファイルを移動したりすると URL が切れる
 - ポリシーの内容を変えたら、ページ内の「最終更新日」も更新する
+- `reshiripi/` の URL はアプリ本体(my_recipe の `AppInfo.supportURL`)にも埋め込んでいる。
+  フォルダ名を変えるとアプリ内のリンクとサイトへの名乗りの連絡先が切れる
