@@ -16,6 +16,10 @@ reshiripi/
   index.html          レシリピの紹介ページ（App Store の「サポートURL」。アプリ内の問い合わせ先・User-Agent の連絡先にも使う）
   privacy.html        レシリピのプライバシーポリシー（App Store の「プライバシーポリシーURL」）
   icon.png            アプリアイコン（my_recipe リポジトリの AppIcon.png を 256px に縮小）
+watchpic/
+  index.html          Watch Pic の紹介ページ（App Store の「サポートURL」）
+  privacy.html        Watch Pic のプライバシーポリシー（App Store の「プライバシーポリシーURL」）
+  icon.png            アプリアイコン（watch_pic リポジトリの iPhone 用 AppIcon.png を 256px に縮小）
 ```
 
 | ページ | URL |
@@ -25,6 +29,8 @@ reshiripi/
 | プライバシーポリシー | https://kage367.github.io/pages/flashcard/privacy.html |
 | レシリピ | https://kage367.github.io/pages/reshiripi/ |
 | レシリピのプライバシーポリシー | https://kage367.github.io/pages/reshiripi/privacy.html |
+| Watch Pic | https://kage367.github.io/pages/watchpic/ |
+| Watch Pic のプライバシーポリシー | https://kage367.github.io/pages/watchpic/privacy.html |
 
 ## 公開のしかた
 
